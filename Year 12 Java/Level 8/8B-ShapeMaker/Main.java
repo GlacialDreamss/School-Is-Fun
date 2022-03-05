@@ -9,21 +9,22 @@ class Main {
 		System.out.println("Enter 1 for a triangle\nEnter 2 for a square\nEnter 3 for a rectangle\nEnter X to stop");
 		String choice = input.nextLine();  
 		if (choice.equals("1")){
-			
+			makeTriangle();
 		}
 		else if (choice.equals("2")){
 			makeSquare();
 		}
 		else if (choice.equals("3")){
-			
+			makeRectangle();
 		}
 		else {
 			System.out.println("Invalid");
 		} 
 	}
 	public static void makeTriangle() {
-		System.out.print("Enter the base of the triangle");
+		System.out.print("Enter the base of the triangle: ");
 		int base = Integer.parseInt(input.nextLine());
+
 	}
 	
 	public static void makeSquare() {
@@ -39,12 +40,16 @@ class Main {
 	}
 
 	public static void makeRectangle() {
-		System.out.print("Enter the length of the rectangle");
-		int size = Integer.parseInt(input.nextLine());		
+		System.out.print("Enter the length of the rectangle: ");	
 		int length = Integer.parseInt(input.nextLine());
+		System.out.print("Enter the height of the rectangle: ");
+		int height = Integer.parseInt(input.nextLine());
 
-		for (int loop = 0; loop != size; loop++){
-			System.out.print("No");
+		for (int loop = 0; loop != height; loop++){
+			System.out.println("");
+			for (int loop2 = 0; loop2 != length; loop2++){
+				System.out.print("*");
+			}
 		}
 	}	 
 }
