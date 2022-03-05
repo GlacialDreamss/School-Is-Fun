@@ -24,7 +24,6 @@ class Main {
 	public static void makeTriangle() {
 		System.out.print("Enter the base of the triangle: ");
 		int base = Integer.parseInt(input.nextLine());
-
 	}
 	
 	public static void makeSquare() {
