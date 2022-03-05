@@ -1,0 +1,4 @@
+Yeet,Yote,21,
+Heet,Hote,12,
+Keet,Kote,15,
+Oeet,Oote,25,

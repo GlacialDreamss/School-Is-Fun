@@ -1,0 +1,7 @@
+Yearlyrent,fixedcost,7500
+CookingEquipment,fixedcost,2500
+UtilityBills,fixedcost,1200
+Websitesetup,fixedcost,1400
+Ingredients,variablecost,3.5
+Packaging,variablecost,0.75
+DeliveryFees,variablecost,3.00

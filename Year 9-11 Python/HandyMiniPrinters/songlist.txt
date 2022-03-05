@@ -1,0 +1,20 @@
+Billie Eilish,Bad Guy,B G,2
+Lil Wayne,I Do It,I D I,3
+Post Malone,Circles,C,1
+Roddy Ricch,The Box,T B,2
+Russ,Best On Earth,B O E,3
+Taylor Swift,Look What You Made Me Do,L W Y M M D,6
+Eminem,Love The Way You Lie,T W Y L,5
+Louis Tomlinson,We Made It,W M I,3
+Halsey,Graveyard,G,1
+DaBaby,Bop,B,1
+Kesha,Tik Tok,T T,2
+Luke Combs,When It Rains It Pours,W I R I P,5
+Jusin Bieber,Yummy,Y,1
+Lizzo,Tempo,T,1
+The Weeknd,Starboy,S,1
+Lil Baby,Woah,W,1
+Jonas Brothers,Only Human,O H,2
+Ed Sheeran,Castle On The Hill,C O T H,4
+Dua Lipa,Don't Start Now,D S N,3
+Lewis Capaldi,Someone You Loved,S Y L,3
