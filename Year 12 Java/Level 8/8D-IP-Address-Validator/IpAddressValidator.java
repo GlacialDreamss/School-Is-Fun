@@ -20,7 +20,7 @@ class Main {
         }
 
     }
-    public static string ipValidator(String ip) {
+    public static String ipValidator(String ip) {
         String[] splitIp = ip.split(":");
         for (int loop = 0;  loop != splitIp.length; loop++) {
 
@@ -28,7 +28,7 @@ class Main {
                 return ("Invalid IPv4, more than 4 sections");
             }
 
-            if ((int)splitIp[loop] != splitIp[loop]) {
+            if (Integer.parseInt(splitIp[loop]) != splitIp[loop]) {
                 return ("Invalid IPv4, one or more of the values are not integers");
             }
             else{
@@ -37,7 +37,7 @@ class Main {
                 }
             }
 
-            if (splitIp[loop].length > 3) {
+            if (splitIp[loop].length() > 3) {
                 return ("Invalid IPv4, there are more than 3 characters in one or more of the values");
             }
         }
