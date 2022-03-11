@@ -22,8 +22,24 @@ class Main {
 		} 
 	}
 	public static void makeTriangle() {
-		System.out.print("Enter the base of the triangle: ");
-		int base = Integer.parseInt(input.nextLine());
+		boolean cond = true;
+		while (cond){
+			System.out.print("Enter the base of the triangle, odd numbers: ");
+
+			int base = Integer.parseInt(input.nextLine());
+			if (base%2 == 0){
+				cond = false;
+			}		
+		}
+
+		for (int loop = 0; loop != ((base+1)/2); loop++){
+			for(int ){
+				System.out.print(" ");
+			}
+			for(int ){
+				System.out.print("*");
+			}
+		}
 	}
 	
 	public static void makeSquare() {
