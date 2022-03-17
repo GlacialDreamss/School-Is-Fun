@@ -7,10 +7,11 @@ class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in); 
         boolean check = true;
-        
+        int counter = 0;
         while (check = true){
-            System.out.print("Please enter the IP address (X to stop): ");
+            System.out.print("Please enter number "+count+1+" (X to stop): ");
             String ip = input.nextLine();
+            int ipNum = Integer.parseInt()
             if (ip.equals("X")) {
                 check = false;
             }
@@ -20,6 +21,7 @@ class Main {
         }
 
     }
+
     public static String ipValidator(String ip) {
         String[] splitIp = ip.split(":");
         for (int loop = 0;  loop != splitIp.length; loop++) {
