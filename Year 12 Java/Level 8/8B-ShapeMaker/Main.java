@@ -33,10 +33,10 @@ class Main {
 		}
 
 		for (int loop = 0; loop != ((base+1)/2); loop++){
-			for(int ){
+			for(int loop2 = 0; loop2 != (base+1)/2; loop++){
 				System.out.print(" ");
 			}
-			for(int ){
+			for(int loop3 = 0; loop3 != base; loop3++){
 				System.out.print("*");
 			}
 		}
