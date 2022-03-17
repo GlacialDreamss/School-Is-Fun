@@ -23,24 +23,31 @@ class Main {
 	}
 	public static void makeTriangle() {
 		boolean cond = true;
+		int base = 0;		
 		while (cond){
 			System.out.print("Enter the base of the triangle, odd numbers: ");
-
-			int base = Integer.parseInt(input.nextLine());
-			if (base%2 == 0){
+			base = Integer.parseInt(input.nextLine());
+			if (base%2 == 1){
 				cond = false;
 			}		
 		}
-
-		for (int loop = 0; loop != ((base+1)/2); loop++){
-			for(int loop2 = 0; loop2 != (base+1)/2; loop++){
-				System.out.print(" ");
-			}
-			for(int loop3 = 0; loop3 != base; loop3++){
-				System.out.print("*");
-			}
-		}
-	}
+		
+        int whiteSpace;
+        for (int i = 1; i <= base; i += 2) {
+            whiteSpace = (base - i) / 2;
+            for (int j = 0; j < whiteSpace; j++) {
+                System.out.print(" ");
+            }
+            for (int k = 0; k < base - (whiteSpace * 2); k++) {
+                System.out.print("*");
+            }
+            for (int l = 0; l < whiteSpace; l++) {
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+    }
+	
 	
 	public static void makeSquare() {
 		System.out.print("Enter the size of the square: ");
