@@ -1,6 +1,15 @@
 class Person { //Object Class - helps to create objects
     //Multiple Object Classes
     
+    //Constructor methods - create objects
+    Person(String n, int age){
+        name = n;
+        this.age = age;
+    }
+
+    //Default constructor
+    Person(){}
+
     //Private attributes - variables 
     private String name;
     private Int age;
