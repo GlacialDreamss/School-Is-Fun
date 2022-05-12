@@ -12,7 +12,7 @@ class Person { //Object Class - helps to create objects
 
     //Private attributes - variables 
     private String name;
-    private Int age;
+    private int age;
     
     //Setter method - sets the value of the attributes
     public void setName(String name){
@@ -28,7 +28,7 @@ class Person { //Object Class - helps to create objects
     } 
 
     public int getAge(){
-        return age
+        return age;
     }
     
     
