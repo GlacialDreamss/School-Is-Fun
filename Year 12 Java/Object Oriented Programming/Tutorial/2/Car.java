@@ -1,5 +1,5 @@
 class Car {
-    private String Model;
+    private String model;
 
     private String getModel() {
         return this.model;
