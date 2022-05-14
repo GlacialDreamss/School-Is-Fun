@@ -1,11 +1,7 @@
 {
     "terminal.integrated.cursorStyle": "underline",
     "java.project.sourcePaths": [
-        "Year 12 Java/Level 8/8D-IP-Address-Validator/",
-        "Year 12 Java/Object Oriented Programming/Definition Examples",
-        "Year 12 Java/Object Oriented Programming/Tutorial/1",
-        "Year 12 Java/Object Oriented Programming/Tutorial/2"
-
-
-    ]
+        "Year 12 Java",
+        "Year 12 Java\\Levels\\Level 1\\All-About-Me"
+    ],
 }
