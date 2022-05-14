@@ -1,5 +1,7 @@
 class Main {
     public static void main(String[] args) {
-        System.out.print("E");
+
+        Climate c = new Climate();
+        c.setDay("tuesday"); 
     }
 }

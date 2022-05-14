@@ -1,7 +1,7 @@
 class Person { //Object Class - helps to create objects
     //Multiple Object Classes
     
-    //Constructor methods - create objects
+    //Overloaded constructor
     Person(String n, int age){
         name = n;
         this.age = age;
@@ -22,7 +22,8 @@ class Person { //Object Class - helps to create objects
     public void setAge(int age){
         this.age = age;
     }
-
+    
+    //Getter method
     public String getName(){
         return name;
     } 
