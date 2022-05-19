@@ -1,7 +1,7 @@
-class Climate {
+public class Climate {
     
-    private int time;
-    private String day;
+    public int time;
+    public String day;
 
     Climate(int time, String day){
         this.time = time;
