@@ -1,4 +1,4 @@
-public class Climate {
+class Climate {
     
     public int time;
     public String day;
