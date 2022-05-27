@@ -1,8 +1,13 @@
+//Driver Class
 public class Main {
     public static void main(String[] args) {
-        Climate c1 = new Climate();
-        c1.setDay("tuesday"); 
-        c1.setTime(1018);
-        System.out.println(c1.getDay());
+        Climate Spring = new Climate();
+        Climate Summer = new Climate();
+        Climate Autumn  = new Climate();
+        Climate Winter = new Climate();
+
+        Spring.setDate("tuesday"); 
+        Spring.setTime(1018);
+        System.out.println(Spring.getDate());
     }
 }

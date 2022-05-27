@@ -1,12 +1,15 @@
+//Main Class
 public class Climate {
     
     private int time;
-    private String day;
+    private int day;
+    private String date;
+    private String month;
     
     //Climate
     Climate(int time, String day){
         this.time = time;
-        this.day = day;
+        this.date = date;
     }
     Climate(){}
     @Override
@@ -15,11 +18,11 @@ public class Climate {
     }
 
     //Day
-    public void setDay(String day){
-        this.day = day;
+    public void setDate(String date){
+        this.date = date;
     }
-    public String getDay(){
-        return day;
+    public String getDate(){
+        return date;
     }
 
     //Time
