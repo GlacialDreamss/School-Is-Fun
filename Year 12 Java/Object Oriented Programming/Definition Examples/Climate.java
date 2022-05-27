@@ -2,13 +2,16 @@ public class Climate {
     
     private int time;
     private String day;
-
+    
+    //Climate
     Climate(int time, String day){
         this.time = time;
         this.day = day;
     }
 
     Climate(){}
+
+    //Climate 
     //Day
     public void setDay(String day){
         this.day = day;

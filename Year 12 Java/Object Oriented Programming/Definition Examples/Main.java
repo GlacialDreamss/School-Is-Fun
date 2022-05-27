@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        Climate c = new Climate();
-        c.setDay("tuesday"); 
-        c.setTime(1018);
-        System.out.println(c.getDay());
+        Climate c1 = new Climate();
+        c1.setDay("tuesday"); 
+        c1.setTime(1018);
+        System.out.println(c1.getDay());
     }
 }
