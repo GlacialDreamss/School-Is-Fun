@@ -1,7 +1,7 @@
-class Climate {
+public class Climate {
     
-    public int time;
-    public String day;
+    private int time;
+    private String day;
 
     Climate(int time, String day){
         this.time = time;
@@ -9,14 +9,19 @@ class Climate {
     }
 
     Climate(){}
-
+    //Day
     public void setDay(String day){
         this.day = day;
     }
-
     public String getDay(){
         return day;
     }
 
-
+    //Time
+    public void setTime(int time){
+        this.time = time;
+    }
+    public int getTime(){
+        return time;
+    }
 }
