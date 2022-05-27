@@ -8,10 +8,12 @@ public class Climate {
         this.time = time;
         this.day = day;
     }
-
     Climate(){}
+    @Override
+    public String toString() { 
+        return "Day [Day = "+ day +", Time = "+ time +"]";
+    }
 
-    //Climate 
     //Day
     public void setDay(String day){
         this.day = day;
@@ -27,4 +29,5 @@ public class Climate {
     public int getTime(){
         return time;
     }
+
 }
