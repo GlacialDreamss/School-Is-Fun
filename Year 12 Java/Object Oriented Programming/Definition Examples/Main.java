@@ -6,8 +6,11 @@ public class Main {
         Climate Autumn  = new Climate();
         Climate Winter = new Climate();
 
-        Spring.setDay("tuesday"); 
         Spring.setTime(1018);
-        System.out.println(Spring.getDay());
+        Spring.setDay("saturday");
+        Spring.setDate(1);
+        Spring.setMonth("may"); 
+
+        System.out.print(Spring.toString());
     }
 }
