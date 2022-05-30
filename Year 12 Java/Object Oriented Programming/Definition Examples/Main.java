@@ -9,8 +9,15 @@ public class Main {
         Spring.setTime(1018);
         Spring.setDay("saturday");
         Spring.setDate(1);
-        Spring.setMonth("may"); 
+        Spring.setMonth("may");
 
-        System.out.print(Spring.toString());
+        Autumn.setTime(1620);
+        Autumn.setDay("sunday");
+        Autumn.setDate(24);
+        Autumn.setMonth("november");
+
+        System.out.println(Spring.toString());
+        System.out.print(Autumn.toString());
+
     }
 }

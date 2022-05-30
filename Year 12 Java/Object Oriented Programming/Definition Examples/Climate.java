@@ -1,11 +1,19 @@
+import java.util.*;
 //Object Class
-public class Climate {
+public class Climate extends Forecast {
+    Scanner input = new Scanner(System.in); 
     
     private int time;
     private int date; //Date is numerical data
     private String day; //Day is the name of the actual day, e.g. Monday
     private String month;
     
+    //Abstract
+    @Override
+    public void intensity(){
+        System.out.print("What is the intensity of the forecast?");
+    }
+
     //Climate
     Climate(){}
     Climate(int time, String day){
