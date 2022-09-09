@@ -33,10 +33,13 @@ class Main{
             //Average total
             staffAgeTotal += staffAge;
 
-            if () 
-            {
-
-            }
+            //Oldest student
+            if (i = 1){
+                if () {
+                    
+                }   
+            } 
+            
         }
         
         int staffAgeAverage = staffAgeTotal / 3;
