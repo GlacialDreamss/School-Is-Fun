@@ -1,6 +1,6 @@
 # School-Is-Fun...
-Random projects from school
-This is a compilation of all my projects, because of this there are multiple Main.java files and each project has to be run individually. I don't know if there's a way to get around this
+Java and Python projects from throughout secondary school
+There are multiple Main.java files and each project has to be run individually.
 
 
 
